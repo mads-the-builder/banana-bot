@@ -24,7 +24,7 @@ app = App(token=SLACK_BOT_TOKEN)
 # Initialize Gemini client
 gemini = genai.Client(api_key=GEMINI_API_KEY)
 
-MODEL = "gemini-3-pro-image-preview"
+MODEL = "gemini-3.1-flash-image-preview"
 
 # Random acknowledgments for instant feedback
 ACKNOWLEDGMENTS = [
